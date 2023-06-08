@@ -60,7 +60,7 @@ main .bgHero{
 }
 
 .card h2{
-    margin-top: 120px;
+    margin-top: -60px;
 }
 
 .card button{
@@ -74,10 +74,10 @@ main .bgHero{
 }
 
 .card .personaje{
-    position: absolute;
+    position: relative;
     width: 150px;
-    right: 26%;
-    bottom: 53%;
+    left: 8px;
+    top: -80px;
     border-radius: 50%;
 }
 
@@ -156,11 +156,6 @@ footer img{
 @media (min-width: 1450px) {
         main .card{
             width: 20%;
-        }
-
-        .card .personaje{
-            top: 23%;
-            left: 31%;
         }
 
 }
