@@ -11,15 +11,38 @@ body{
 }
 
 header p{
-    background-color: #D1891C;
+    background-color: #1CD1B0;
     padding: 5px 0 5px 30px;
 }
 
-header h1{
+header .logoTienda{
     background-color: #00669F;
+    list-style-type: none;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .logoTienda h1{
     color: white;
-    padding: 20px 20px 20px 30px;
     font-weight: bold;
+}
+
+header nav .menu{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    background-color: #001D2D;
+    color: white;
+    padding: 20px 50px;
+}
+
+header nav .menu a{
+    text-decoration: none;
+    color: white;
 }
 
 main{
@@ -102,6 +125,109 @@ main .bgHero{
     font-size: 25px;
 }
 
+.add a{
+    text-decoration: none;
+    color: white;
+}
+
+.mainForm {
+    background-color: #00669F;
+    width: 70%;
+    height: 100%;
+    margin: 150px auto;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.mainForm h2{
+    padding-bottom: 25px;
+}
+
+.mainForm p{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mainForm form{
+    height: 100%;
+    padding: 50px 0;
+    color: white;
+    background-color: #00669F;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mainForm form article{
+    width: 35%;
+    margin: 50px 20px;
+    text-align: start;
+}
+
+.mainForm form article input{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.mainForm .file{
+    background-color: transparent;
+    font-size: 20px;
+}
+
+
+.mainForm textarea{
+    width: 35%;
+    border-radius: 20px;
+    height: 600px;
+    margin: 0 0 0 40px;
+    font-size: 20px;
+}
+
+.mainForm .checkbox{
+    width: 35%;
+    margin: 10px 0 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.mainForm .checkbox input {
+    width: 30px;
+    height: 30px;
+    color: white;
+ }
+
+.lineaDivider{
+    width: 100%;
+}
+
+.agregarPersonaje{
+    width: 40%;
+    font-size: 50px;
+    margin-top: 100px;
+    height: 150px;
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 23px;
+}
+
+.footerMainPage{
+    margin-top: 370px;
+}
+
 footer{
     margin-top: 120px;
     display: flex;
@@ -171,5 +297,4 @@ footer img{
         main .card{
             width: 20%;
         }
-
 }
